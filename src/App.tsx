@@ -1,9 +1,9 @@
 /* eslint-disable react/react-in-jsx-scope */
 
 import { BrowserRouter } from 'react-router-dom';
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from './components';
 import Stars from './components/canvas/Stars';
 
-import { Navbar, About, Hero, Experience, Tech, Works, Feedbacks, Contact } from './components'
 function App() {
   return (
     <BrowserRouter>

@@ -9,7 +9,7 @@ module.exports = {
     'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
-    'plugin:prettier/recommended',
+
   ],
   overrides: [
     {
@@ -26,7 +26,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: ['./tsconfig.json', ],
+    project: ['./tsconfig.json',],
   },
   plugins: ['@typescript-eslint', 'react'],
   rules: {
